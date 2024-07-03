@@ -19,7 +19,7 @@ const Food = () => {
   const [showVegetarian, setShowVegetarian] = useState(false);
 
   useEffect(() => {
-    Axios.get('http://localhost:4000/api/v1/food')
+    Axios.get('https://public-restro-api.vercel.app/api/v1/food')
       .then(response => {
         setFoods(response.data);
         setLoading(false);

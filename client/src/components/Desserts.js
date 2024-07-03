@@ -15,7 +15,7 @@ const Dessert = () => {
   const [selectedCategory, setSelectedCategory] = useState('all'); // Track selected category, default to 'All'
 
   useEffect(() => {
-    Axios.get('http://localhost:4000/api/v1/desserts')
+    Axios.get('https://public-restro-api.vercel.app/api/v1/desserts')
       .then(response => {
         setDesserts(response.data);
         setLoading(false);
