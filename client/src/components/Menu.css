@@ -1,0 +1,27 @@
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap as needed */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px; /* Adjust the width as needed */
+}
+
+.menu-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: add border radius */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.menu-text {
+  text-align: center;
+  font-size: 1.2em; /* Adjust the font size as needed */
+  margin-top: 3px; /* Adjust the margin as needed */
+}
